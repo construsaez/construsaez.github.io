@@ -80,6 +80,7 @@ footer div ul{
 .titulo{
   font-size: 15vh;
   font-weight: 900;
+  text-align: center;
 }
 
 .info{
@@ -89,4 +90,18 @@ footer div ul{
 
 .info:hover{
   text-decoration: underline;
+}
+
+@media screen and (max-width: 600px){
+  .titulo{
+    font-size: xx-large;
+  }
+
+  .hist{
+    background-size: 100vh;
+  }
+  
+  .cont{
+    background-size: 100vh;
+  }
 }
