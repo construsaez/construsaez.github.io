@@ -1,0 +1,92 @@
+:root {
+    --verdeCS: #96c36e;
+    --cinzaCS: #6a6b6d;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+
+.fa-anchor,.fa-coffee {font-size:200px}
+
+.navbar{
+  background-color: var(--verdeCS);
+}
+
+.home{
+  background-image: url('IMG/Concrete-Texture-5.jpg');
+}
+
+.proj{
+  background-image: url('IMG/blueprint.jpg');
+  background-size: 170vw;
+}
+
+.hist{
+  background-image: url('IMG/oldconstruction.jpg');
+  background-size: 100vw;
+}
+
+.cont{
+  background-image: url('IMG/mail.jpg');
+  background-size: 100vw;
+}
+
+.logo{
+  width: 75vw;
+}
+
+.imagem-fixa {
+  background-attachment: fixed;
+  background-position: 50% 0;
+}
+
+.w3-text-verde{
+  color: var(--verdeCS);
+}
+
+.w3-text-cinza{
+  color: var(--cinzaCS);
+}
+
+.w3-text-verde:hover{
+  color: var(--cinzaCS);
+}
+
+.w3-text-cinza:hover{
+  color: var(--verdeCS);
+}
+
+.icone-grande{
+  font-size: 1500%;
+}
+
+.icone-medio{
+  font-size: 700%;
+}
+
+footer div ul li a{
+  text-decoration: none;
+}
+
+footer div ul li a:hover{
+  text-decoration: underline;
+}
+
+footer div ul{
+  list-style: none;
+}
+
+.titulo{
+  font-size: 15vh;
+  font-weight: 900;
+}
+
+.info{
+  font-size: 150%;
+  text-decoration: none;
+}
+
+.info:hover{
+  text-decoration: underline;
+}
